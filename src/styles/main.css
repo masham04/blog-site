@@ -1,0 +1,25 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+body {
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: #303d35;
+  color: aqua;
+}
+button {
+  width: 120px;
+  height: 50px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #3f5246;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  font-size: 15px;
+  transition: all ease 0.2s;
+}
+button:hover {
+  background-color: #46584d;
+}

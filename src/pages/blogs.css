@@ -1,0 +1,30 @@
+p {
+  text-decoration: none;
+  color: aqua;
+}
+#lg {
+  text-decoration: none;
+  color: aqua;
+}
+h1 {
+  text-align: center;
+}
+.btn1 {
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  border-radius: 50px;
+}
+
+.image {
+  background-image: url(../images/logo.svg);
+  width: 90%;
+  height: 400px;
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  background-repeat: no-repeat;
+}
