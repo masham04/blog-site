@@ -1,14 +1,13 @@
 * {
-  margin: 5px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
 }
-body {
+ body {
   font-family: sans-serif;
   text-decoration: none;
-  background-color: #303d35;
-  color: aqua;
+ 
 }
-button {
+/* button {
   width: 120px;
   height: 50px;
   background-color: Transparent;
@@ -22,4 +21,4 @@ button {
 }
 button:hover {
   background-color: #46584d;
-}
+} */
