@@ -1,29 +1,3 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding-right: 5%;
-  background-color: #61c9ac;
-}
-li {
-  float: right;
-}
-li #a {
-  display: block;
-  color: white;
-  text-align: center;
-  line-height: 10px;
-  padding: 25px;
-  text-decoration: none;
-  transition: all ease-in-out 0.2s;
-}
-li #a:hover:not(.active) {
-  background-color: #24a17e;
-}
-.active {
-  background-color: #4caf50;
-}
 .bg-img {
   width: 60%;
   height: 100vh;

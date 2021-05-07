@@ -1,13 +1,15 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
 import "./blogs.css"
+import Header from '../components/Header'
 
 const blogs = ({ data }) => {
   console.log(data)
   const blog = data.allContentfulBlogSite.edges
   return (
     <div>
-      <Link id='lg' to="/"><button>Go To Home</button></Link>
+      <Header />
+      {/* <Link id='lg' to="/"><button>Go To Home</button></Link>
       <h1>Blogs</h1>
       <div>
         {blog.map((el) => {
@@ -23,7 +25,7 @@ const blogs = ({ data }) => {
             </div>
           )
         })}
-      </div>
+      </div> */}
     </div>
   )
 }
