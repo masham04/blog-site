@@ -10,7 +10,7 @@ const blog = ({ pageContext }) => {
 
     return (
         <div>
-            {/* <Link to='/blogs'><button>Go Back</button></Link> */}
+            
             <div className='data'>
 
                 <img src={blog.image} id='img' alt='cover' width='100%' height='600px' />
