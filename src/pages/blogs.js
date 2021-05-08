@@ -9,23 +9,31 @@ const blogs = ({ data }) => {
   return (
     <div>
       <Header />
-      {/* <Link id='lg' to="/"><button>Go To Home</button></Link>
-      <h1>Blogs</h1>
-      <div>
-        {blog.map((el) => {
-          return (
-            <div>
-              <Link id='lg' to={el.node.slug}>
-                <p>
-                  <h2>{el.node.title}</h2>
-                  {el.node.excerpt.excerpt}
-                </p>
-                <img src={el.node.featuredImage.file.url} alt='cover' width="700px" />
-              </Link>
-            </div>
-          )
-        })}
-      </div> */}
+      <div className='container'>
+        <h1 className='heading1'>ALL BLOGS</h1>
+
+
+        <div className='wrapper'>
+          {blog.map((el) => {
+            return (
+
+              <div className="card">
+                <Link to={el.node.slug} style={{ textDecoration: 'none', color: '#555' }}>
+
+                  <img src={el.node.featuredImage.file.url} alt="Avatar" style={{ width: "100%" }} />
+                  <div className="container">
+                    <h4><b>{el.node.title}</b></h4>
+                    <br />
+                    <p>{el.node.excerpt.excerpt}</p>
+                  </div>
+                </Link>
+              </div>
+
+            )
+          })}
+        </div>
+      </div>
+
     </div>
   )
 }
