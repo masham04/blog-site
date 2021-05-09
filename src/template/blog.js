@@ -10,10 +10,10 @@ const blog = ({ pageContext }) => {
 
     return (
         <div>
-            
+
             <div className='data'>
 
-                <img src={blog.image} id='img' alt='cover' width='100%' height='600px' />
+                <img src={blog.image} id='img' alt='cover' />
                 <h1>{blog.title}</h1>
                 <p>{data}</p>
             </div>
