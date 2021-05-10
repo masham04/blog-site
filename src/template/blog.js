@@ -1,6 +1,6 @@
 import React from "react"
+import Header from '../components/Header'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-import { Link } from "gatsby";
 import './blog.css'
 
 const blog = ({ pageContext }) => {
@@ -10,12 +10,12 @@ const blog = ({ pageContext }) => {
 
     return (
         <div>
-
+            <Header />
             <div className='data'>
-
+                <h1 className='title'>{blog.title}</h1>
                 <img src={blog.image} id='img' alt='cover' />
-                <h1>{blog.title}</h1>
-                <p>{data}</p>
+                <br />
+                <p style={{ color: '#555' }}>{data}</p>
             </div>
         </div>
     )
